@@ -5,13 +5,13 @@
 2. Cd into the repository
 3. enter: `git init`
 
-## 1. Syncing your remote repository to your local repository (if you have first created a local repository on your computer and then a GitHub repository)
+## 2. Syncing your remote repository to your local repository (if you have first created a local repository on your computer and then a GitHub repository)
 `git remote add origin <url>`
 
-## 1. Clone a repository (Take Repository from internet and download a copy onto computer)
+## 3. Clone a repository (Take Repository from internet and download a copy onto computer)
 `git clone <url>`
 
-## 1. Track and Commit Files
+## 4. Track and Commit Files
 ### Add a file to be tracked the next time I save
 `git add <filename>`
 
@@ -24,28 +24,28 @@
 ### Track all of the files that have been changed and commit them
 `git commit -am "message about which changes you made"`
 
-## 1. What is currently happening within Git repository
+## 5. What is currently happening within Git repository
 `git status`
 
-## 1. Push change in repository to GitHub
+## 6. Push change in repository to GitHub
 `git push`
 
 
-## 1. Download latest version of the repository that currently exists on GitHub (if GitHub ahead of local repository)
+## 7. Download latest version of the repository that currently exists on GitHub (if GitHub ahead of local repository)
 `git pull`
 
 
-## 1. See all the changes you have made in the repository
+## 8. See all the changes you have made in the repository
 `git log`
 
 
-## 1. Reset current state of your local repository
+## 9. Reset current state of your local repository
 `git reset --hard <commit hash>` #Reset to older version with this commit hash
 or
 `git reset --hard origin/master` #reset to version that is currently on GitHub
 
 
-## 1. Branching
+## 10. Branching
 
 ### Current state of your local repository is represented by the HEAD
 
